@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.content {
+    margin-top: 60px;
+}
+
+button.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 130px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+i {
+    font-size: 60px ;
+    margin-left: 15px;
+}
+
+button.colorProd{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+button.colorProd:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 1400px){
+    button.colorProd{
+        margin: 30px;
+    }
+}
